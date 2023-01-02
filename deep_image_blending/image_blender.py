@@ -3,7 +3,7 @@ import torch
 import torch.optim as optim
 from PIL import Image
 import matplotlib.pyplot as plt
-from deep_blending_utils import compute_gt_gradient_alt, laplacian_filter_tensor, MeanShift, Vgg16, gram_matrix
+from .deep_blending_utils import compute_gt_gradient_alt, laplacian_filter_tensor, MeanShift, Vgg16, gram_matrix
 
 
 class ImageBlender:
